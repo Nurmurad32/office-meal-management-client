@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-hvr-active{
+    @apply flex justify-center bg-white mb-5 text-black w-1/2 mx-auto hover:bg-slate-300 active:bg-slate-300 rounded
+}
+
+.btn-brand1 {
+    @apply bg-[#0089C9] text-white font-bold hover:bg-[#0089c9c7];
+  }
+
+.activeBtn li a{
+    @apply hover:bg-white hover:text-black hover:rounded-lg active:bg-white active:text-black active:rounded-lg
+}
+
+.ul-dashboard li{
+    @apply text-center
+}
+
+.content-center{
+    @apply min-h-screen flex items-center justify-center p-5
+}
